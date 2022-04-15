@@ -102,20 +102,21 @@ img.photo {
     font-family: 'Just Me Again Down Here', cursive;
     font-style: normal;
     font-size: large;
-}
+        }
 
 .table {
     border-collapse: collapse;
-}
+    }
 
 .table td {
     background-color: rgb(231, 224, 224);
+    text-align: left;
 }
 
 .table th {
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: left;
+    text-align: center;
     background-color: rgb(231, 224, 224);
     border: 3px;
 }
