@@ -151,3 +151,24 @@ img.photo {
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.foorms {
+text-align: center;
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 18px;
+line-height: 18px;
+display: grid;
+gap: 10px;
+}
+
+.form {
+text-align: center;
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 18px;
+line-height: 18px;
+font-weight: 500;
+width: 600px;
+display: grid;
+gap: 10px;
+}
+
