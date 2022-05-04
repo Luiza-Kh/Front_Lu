@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" data-test-id="text__body">
         <header class="header-wrapper">
             <img class="photo" src="assets/images/LuSun.jpeg" width="135" height="150">
             <div class="position">
@@ -18,14 +18,14 @@
 
         <div class="hrs1"></div>
 
-        <div class="facts-about-me">
+        <div class="facts-about-me" data-test-id="text__facts">
             <div class="facts-about-me2">
                 <p>Факты обо мне</p>
             </div>
             <div class="wraper">
                 <ul>
                     <li>Работаю в КЕ полгода;</li>
-                    <li> Постоянно занимаюсь самообразованием;</li>
+                    <li>Постоянно занимаюсь самообразованием;</li>
                     <li>Хочу стать “мидлом” по окончанию курса по основам автоматизации;</li>
                     <li>Люблю активное времяпрепровождение;</li>
                     <li>Живу на драйве и наслаждаюсь каждым днем;</li>
@@ -64,7 +64,7 @@
         <div class="rectangle">
         </div>
 
-        <div class="table">
+        <div class="table" data-test-id="text__experience">
             <div class="works">
                 <p>Опыт работы в ИТ</p>
                 <table>
@@ -98,7 +98,7 @@
             </div>
             <div class="number">
                 <p id="phone">Number: +79952872771</p>
-                <p>Telegram: <a id="telegram" href="https://t.me/@Luiza_Kh98" style="color:#000000;">@Luiza_Kh98</a></p>
+                <p>Telegram: <a data-test-id="link__telegram" href="https://t.me/@Luiza_Kh98" style="color:#000000;">@Luiza_Kh98</a></p>
                 <p>GitHub: <a id="github" href="https://github.com/Luiza-Kh " target="_blank">@Luiza_Kh </a></p>
             </div>
         </footer>
@@ -115,7 +115,7 @@
                 <h1>Пожелай мне чего-нибудь</h1>
                 <label for="write">Напиши своё пожелание:</label>
                 <input type="text" id="write">
-                <input id="check" type="checkbox">
+                <input data-test-id="checkbox__check" type="checkbox">
                 <label for="check">Отправить анонимно</label>
                 <input type="button" name="отправить" value="Отправить" />
             </form>
